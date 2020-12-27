@@ -1,0 +1,36 @@
+@import "./Reset.scss";
+@import "./Variables.scss";
+@import "./Fonts.scss";
+
+#navbar {
+	position: fixed;
+	padding-left: $spacer-two;
+	padding-right: $spacer-two;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	z-index: 15000;
+	right: 0;
+	left: 0;
+	display: flex; 
+	align-items: center;  
+	justify-content: left;
+}
+
+.img-container {
+	width: 90%;
+}
+
+.links-container {
+	display: flex; 
+	align-items: center; 
+}
+
+.logo {
+	height: 9rem;
+}
+
+.icon {
+	padding-left: 2rem;
+	font-size: 3rem;
+}
+  

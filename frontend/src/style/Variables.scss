@@ -1,0 +1,32 @@
+/**
+ * Variables.scss
+ *
+ * Author: @sravyabalasa
+ * Date: December 26, 2020
+ * Description: Variables to be used throughout the stylesheets
+ */
+
+/* Breakpoints */
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+/* Margins */
+$spacer-base: 1rem;
+$spacer-one: $spacer-base * 2;
+$spacer-two: $spacer-one * 2;
+$spacer-three: $spacer-two * 2;
+$spacer-four: $spacer-base * 10;
+
+/* Colors */
+$color-light-rose: #C66D58;
+$color-medium-rose: #733A39;
+$color-burgundy: #3A1504;
+$color-white: white;
+$color-light-beige: #FFF9EC;
+$color-medium-beige: #F3DBA8;
+$color-mustard-gold: #BB844E;
+$color-green-blue-grey: #4B6D67;
+$color-dark-blue-grey: #3C474C;
+$color-black: black;
