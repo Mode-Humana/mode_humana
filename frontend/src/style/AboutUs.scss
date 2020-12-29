@@ -1,0 +1,55 @@
+@import "./Reset.scss";
+@import "./Variables.scss";
+@import "./Fonts.scss";
+
+#about-us {
+	height: 100vh;
+	background-color: $color-medium-beige;
+
+	.content {
+		top: 45%;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+	}
+	
+	.title {
+		color: $color-mustard-gold;
+		margin-bottom: $spacer-three;
+		text-shadow: 0.5rem 0.5rem $color-dark-blue-grey;
+	}
+	
+	.statement {
+		color: $color-dark-blue-grey;
+		@media screen and (max-width: $md) {
+			&{
+				margin-top: $spacer-two;
+			}
+		}
+	}
+
+	.statement-half {
+		background: linear-gradient(
+			to top,
+			$color-mustard-gold-fade 50%,
+			transparent 50%
+		  );
+	}
+	
+	.center-icon {
+		text-align: center;
+	}
+
+	.icon {
+		color: $color-mustard-gold;
+		font-size: 15rem;
+	}
+
+	.row {
+		margin-top: $spacer-two;
+		@media screen and (max-width: $md) {
+			&{
+				margin-top: $spacer-three;
+			}
+		}
+	}
+}

@@ -1,5 +1,7 @@
 import './App.css';
 import Home from './pages/Home';
+import Mission from './pages/Mission';
+import AboutUs from './pages/AboutUs';
 import Navbar from './components/Navbar';
 import { setConfiguration } from "react-grid-system";
 
@@ -10,6 +12,8 @@ export default function App() {
     <div>
       <Navbar/>
       <Home/>
+      <Mission/>
+      <AboutUs/>
     </div>
   );
 }

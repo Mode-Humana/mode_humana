@@ -1,0 +1,24 @@
+@import "./Reset.scss";
+@import "./Variables.scss";
+@import "./Fonts.scss";
+
+#mission {
+	height: 100vh;
+	background-color: $color-mustard-gold;
+
+	.content {
+		top: 45%;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+	}
+	
+	.title {
+		color: $color-medium-beige;
+		margin-bottom: $spacer-three;
+		text-shadow: 0.7rem 0.7rem $color-medium-rose;
+	}
+	
+	.statement {
+		color: $color-medium-beige;
+	}
+}

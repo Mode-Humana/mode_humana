@@ -6,26 +6,27 @@
 #home {
 	height: 100vh;
 	background-color: $color-light-beige;
-}
-.home-content {
-	top: 45%;
-	-ms-transform: translateY(-50%);
-  	-webkit-transform: translateY(-50%);
-}
-.title {
-	margin-top: $spacer-four;
-	margin-bottom: $spacer-three;
-}
 
-.welcome {
-	margin-bottom: $spacer-one;
-}
+	.content {
+		top: 45%;
+		-ms-transform: translateY(-50%);
+		  -webkit-transform: translateY(-50%);
+	}
+	.title {
+		margin-top: $spacer-four;
+		margin-bottom: $spacer-three;
+	}
+	
+	.welcome {
+		margin-bottom: $spacer-one;
+	}
 
-h2 {
-	@media screen and (max-width: $sm) {
-		&{
-			font-size: 5.8rem !important;
-			line-height: 5.8rem !important;
+	h2 {
+		@media screen and (max-width: $sm) {
+			&{
+				font-size: 5.8rem !important;
+				line-height: 5.8rem !important;
+			}
 		}
 	}
 }
