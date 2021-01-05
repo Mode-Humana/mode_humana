@@ -1,0 +1,26 @@
+@import "./Reset.scss";
+@import "./Variables.scss";
+@import "./Fonts.scss";
+
+#trend {
+	height: 100vh;
+	background-color: $color-medium-rose;
+
+	.content {
+		top: 45%;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+	}
+	
+	.title {
+		color: $color-medium-beige;
+		margin-bottom: $spacer-three;
+		text-shadow: 0.7rem 0.7rem $color-mustard-gold;
+	}
+
+	.statement {
+		margin-top: $spacer-two;
+		color: $color-medium-beige; 
+	}
+		
+}

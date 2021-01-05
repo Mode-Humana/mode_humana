@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../components/Button';
+import Form from '../components/Form';
 import "../style/Home.scss";
 
 import { Row, Col, Container } from "react-grid-system";
@@ -18,7 +18,11 @@ export default function Home() {
 						<h4 className="welcome">Welcome to <strong>Mode Humana</strong>. Let our personal stylists build your sustainable wardrobe. </h4>
 					</Col>
 				</Row>
-				<Button name="Learn More"/>
+				<Row>
+					<Col xs={10} md={8}>
+						<Form textName="Email Address" buttonName="Join Mailing List"/>
+					</Col>
+				</Row>
 			</Container>
 		</div>
 	);
