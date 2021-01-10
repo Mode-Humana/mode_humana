@@ -27,7 +27,7 @@ export default function OurProcess() {
 						<FaMoneyCheck className="icon"/>
 					</Col>
 					<Col xs={12} md={10}>
-						<h3 className="statement">Our box contains <strong class="statement-half">&nbsp;new&nbsp;</strong> sustainable fashion and <strong class="statement-half">&nbsp;secondhand&nbsp;</strong> pieces, keeping our prices <strong class="statement-half">&nbsp;affordable&nbsp;</strong> while meeting our rigorous standards.</h3>
+						<h3 className="statement">We're the first box to contain<strong class="statement-half">&nbsp;new&nbsp;</strong> sustainable fashion and <strong class="statement-half">&nbsp;secondhand&nbsp;</strong> pieces, keeping our prices <strong class="statement-half">&nbsp;affordable&nbsp;</strong> while meeting our rigorous standards.</h3>
 					</Col>
 				</Row>
 				<Row className="row" justify="center" align="center">

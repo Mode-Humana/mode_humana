@@ -1,0 +1,18 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "mode humana website backend",
+	"author": "Sravya Balasa",
+	"main": "server.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"dependencies": {
+		"express": "^4.16.1",
+		"mongodb": "^3.6.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}

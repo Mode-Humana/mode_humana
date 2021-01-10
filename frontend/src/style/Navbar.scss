@@ -17,18 +17,18 @@
 	background-color: $color-light-beige;
 
 	.img-container {
-		width: 90%;
+		width: 80%;
 	}
 	
 	.links-container {
-		display: flex; 
-		align-items: center; 
+		width: 20%;
+		text-align: right;
 	}
 	
 	.logo {
 		height: 6rem;
 	}
-	
+
 	.icon {
 		padding-left: 2rem;
 		font-size: 3rem;

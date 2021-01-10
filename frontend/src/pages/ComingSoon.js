@@ -19,7 +19,7 @@ export default function ComingSoon() {
 					</Col>
 				</Row>
 				<Row>
-					<Col xs={11} md={10}>
+					<Col xs={12} sm={10} md={8}>
 						<Form textName="Email Address" buttonName="Join Mailing List"/>
 					</Col>
 				</Row>
