@@ -17,20 +17,9 @@ services:
       - MONGO_DB=$MONGO_DB   
     ports:
       - "2020:8080"
-    # depends_on:
-    #   - db
     volumes: 
       - '.:/home/node/app:rw'
       - 'node_modules:/home/node/app/node_modules'
-  # db:
-  #   image: mongo:4.1.8-xenial
-  #   container_name: db
-  #   env_file: .env
-  #   environment: 
-  #     - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
-  #     - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
-  #   volumes:
-  #     - 'dbdata:/data/db:rw'
 
 volumes:
   node_modules:
