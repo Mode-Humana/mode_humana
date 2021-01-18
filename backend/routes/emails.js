@@ -17,16 +17,14 @@ router.post('/add_email', async (req, res) => {
 		}
 	
 		sgMail.send(msg)
-			.then(() => console.log('success: email sent'))
+			.then(() => res.status(200).json({
+				status: "success: email sent",
+				email: email
+			}))
 			.catch((err) => res.status(400).json({ 
 				status: "failure: email not sent",
 				err: err
 			}))
-
-		res.status(200).json({
-			status: "success: email created",
-			email: email
-		})
 	} else {
 		res.status(400).json({ 
 			status: "failure: email not added"

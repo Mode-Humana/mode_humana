@@ -10,6 +10,7 @@ export default function Form(props) {
 	function handleSubmit(e) {
 		server.addEmail(email)
 			.then((response) => {
+				console.log(response)
 				setEmail("")
 				setDisable(true)
 				props.handleToast("Email successfully submitted")
