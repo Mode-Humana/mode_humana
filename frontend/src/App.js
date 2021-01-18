@@ -30,10 +30,11 @@ export default function App() {
   useEffect(() => { 
     if (initialRender.current) {
       initialRender.current = false;
-    } else {
+    } else if (dispToast !== '') {
       notify();
+      setToast('');
     }
-  })
+  }, [dispToast, notify])
 
   return (
     <div>
