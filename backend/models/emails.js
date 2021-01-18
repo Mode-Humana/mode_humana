@@ -1,14 +1,31 @@
-const mongoDB = require('../db');
+const mongoose = require('mongoose');
+var validator = require("email-validator");
 
-function getCollection() {
-	return mongoDB.getCollection('emails')
-}
+const EmailSchema = new mongoose.Schema({
+  email: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+});
+const Email = mongoose.model("Emails", EmailSchema);
 
-function addEmail (data) {
-	getCollection().insertOne(data)
-		.then(result => {
-			console.log(result)
-		})
+async function addEmail (data) {
+	if (!validator.validate(data.email)) {
+		return null;
+	}
+
+	var query = Email.findOne({
+		email: data.email
+	})
+
+	var out = await query.exec()
+	if (!out) {
+		return new Email({
+			email: data.email,
+		  }).save()
+	}
+	return null;
 }
 
 module.exports = {

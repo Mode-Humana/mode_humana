@@ -3,14 +3,9 @@
 @import "./Fonts.scss";
 
 #coming-soon {
-	height: 100vh;
 	background-color: $color-mustard-gold;
-
-	.content {
-		top: 45%;
-		-ms-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-	}
+	padding-top: $spacer-five;
+	padding-bottom: $spacer-five;
 	
 	.sign-up {
 		margin-bottom: $spacer-one;

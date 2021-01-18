@@ -7,13 +7,13 @@ import { Row, Col, Container } from "react-grid-system";
 export default function ComingSoon() {
 	return (
 		<div id="coming-soon">
-			<Container class="content">
+			<Container className="content">
 				<Row>
 					<Col>
 						<h1 className="title">Coming Soon.</h1>
 					</Col>
 				</Row>
-				<Row class="sign-up">
+				<Row className="sign-up">
 					<Col>
 						<h5>Sign up to be a part of our <strong>exclusive launch group.</strong></h5>
 					</Col>

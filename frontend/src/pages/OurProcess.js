@@ -19,7 +19,7 @@ export default function OurProcess() {
 						<IoShirtOutline className="icon"/>
 					</Col>
 					<Col xs={12} md={10}>
-						<h3 className="statement">As a sustainable venture, we’ll do the <strong class="statement-half">&nbsp;research&nbsp;</strong>, from brands to shipping, so you don’t have to.</h3>
+						<h3 className="statement">As a sustainable venture, we’ll do the <strong className="statement-half">&nbsp;research&nbsp;</strong>, from brands to shipping, so you don’t have to.</h3>
 					</Col>
 				</Row>
 				<Row className="row" justify="center" align="center">
@@ -27,7 +27,7 @@ export default function OurProcess() {
 						<FaMoneyCheck className="icon"/>
 					</Col>
 					<Col xs={12} md={10}>
-						<h3 className="statement">We're the first box to contain<strong class="statement-half">&nbsp;new&nbsp;</strong> sustainable fashion and <strong class="statement-half">&nbsp;secondhand&nbsp;</strong> pieces, keeping our prices <strong class="statement-half">&nbsp;affordable&nbsp;</strong> while meeting our rigorous standards.</h3>
+						<h3 className="statement">We're the first box to contain<strong className="statement-half">&nbsp;new&nbsp;</strong> sustainable fashion and <strong className="statement-half">&nbsp;secondhand&nbsp;</strong> pieces, keeping our prices <strong className="statement-half">&nbsp;affordable&nbsp;</strong> while meeting our rigorous standards.</h3>
 					</Col>
 				</Row>
 				<Row className="row" justify="center" align="center">
@@ -35,7 +35,7 @@ export default function OurProcess() {
 						<GiClothespin className="icon"/>
 					</Col>
 					<Col xs={12} md={10}>
-						<h3 className="statement">Our <strong class="statement-half">&nbsp;stylists&nbsp;</strong> will ship to you a <strong class="statement-half">&nbsp;curated&nbsp;</strong> selection of pieces, based off of your <strong class="statement-half">&nbsp;preferences&nbsp;</strong> from our style quiz.</h3>
+						<h3 className="statement">Our <strong className="statement-half">&nbsp;stylists&nbsp;</strong> will ship to you a <strong className="statement-half">&nbsp;curated&nbsp;</strong> selection of pieces, based off of your <strong className="statement-half">&nbsp;preferences&nbsp;</strong> from our style quiz.</h3>
 					</Col>
 				</Row>
 			</Container>

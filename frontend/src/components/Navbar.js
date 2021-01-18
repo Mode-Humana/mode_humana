@@ -7,10 +7,10 @@ import "../style/Navbar.scss";
 export default function Navbar() {
 	return (
 		<div id="navbar">
-			<div class="img-container">
-				<a href="#home"><img className="logo" src={logo}/></a>
+			<div className="img-container">
+				<a href="#home"><img alt='logo' className="logo" src={logo}/></a>
 			</div>
-			<div class="links-container">
+			<div className="links-container">
 				<FaInstagram className="icon"/>
 				<FiMail className="icon"/>
 			</div>
