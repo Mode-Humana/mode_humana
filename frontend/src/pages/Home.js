@@ -1,10 +1,9 @@
 import React from 'react';
 import Form from '../components/Form';
 import "../style/Home.scss";
-
 import { Row, Col, Container } from "react-grid-system";
 
-export default function Home() {
+export default function Home(props) {
 	return (
 		<div id="home">
 			<Container className="content">
@@ -20,7 +19,7 @@ export default function Home() {
 				</Row>
 				<Row>
 					<Col xs={12} sm={10} md={8}>
-						<Form textName="Email Address" buttonName="Join Mailing List"/>
+						<Form textName="Email Address" buttonName="Join Mailing List" handleToast={props.handleToast}/>
 					</Col>
 				</Row>
 			</Container>

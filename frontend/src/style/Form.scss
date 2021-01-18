@@ -24,7 +24,12 @@
 		border-radius: 1rem;
 		color: $color-burgundy;
 		background-color: $color-white;
+		transition: all .5s ease-out;
 		cursor: pointer;
+	}
+
+	button:hover {
+		opacity: 0.8;
 	}
 
 	::placeholder {

@@ -4,7 +4,7 @@ import "../style/ComingSoon.scss";
 
 import { Row, Col, Container } from "react-grid-system";
 
-export default function ComingSoon() {
+export default function ComingSoon(props) {
 	return (
 		<div id="coming-soon">
 			<Container className="content">
@@ -20,7 +20,7 @@ export default function ComingSoon() {
 				</Row>
 				<Row>
 					<Col xs={12} sm={10} md={8}>
-						<Form textName="Email Address" buttonName="Join Mailing List"/>
+						<Form textName="Email Address" buttonName="Join Mailing List" handleToast={props.handleToast}/>
 					</Col>
 				</Row>
 			</Container>

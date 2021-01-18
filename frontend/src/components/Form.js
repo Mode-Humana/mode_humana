@@ -4,14 +4,19 @@ import server from '../server'
 
 export default function Form(props) {
 	const [email, setEmail] = useState('');
+	
 	function handleSubmit(e) {
 		console.log('submit')
 		server.addEmail(email)
 			.then((response) => {
 				console.log(response)
 				setEmail("")
+				props.handleToast("Email successfully submitted")
 			})
-			.catch((err) => console.log(err))
+			.catch((err) => {
+				console.log(err)
+				props.handleToast("Email was not submitted")
+			})
 	}
 
 	function handleChange(e) {
