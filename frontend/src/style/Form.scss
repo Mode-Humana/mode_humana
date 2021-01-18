@@ -28,8 +28,12 @@
 		cursor: pointer;
 	}
 
-	button:hover {
-		opacity: 0.8;
+	button:disabled {
+		opacity: 0.4
+	}
+
+	button:hover:enabled {
+		opacity: 0.8
 	}
 
 	::placeholder {
