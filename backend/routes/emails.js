@@ -12,8 +12,7 @@ router.post('/add_email', async (req, res) => {
 			to: req.body.email, // to email
 			from: 'hello@modehumana.com', // verified sender
 			subject: 'Welcome to Mode Humana!',
-			text: 'Welcome to Mode Humana',
-			html: '<strong>Welcome! Test email for when people sign up!</strong>',
+			templateId: 'd-80407c1cb9cf43f2972313bc438d30d5'
 		}
 	
 		sgMail.send(msg)
