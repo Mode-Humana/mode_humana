@@ -7,7 +7,6 @@ WORKDIR /home/node/app
 # install dependencies
 COPY package*.json /home/node/app/
 RUN npm install
-# RUN npm ci --only=production
 
 # bundle app source
 COPY . /home/node/app/

@@ -5,8 +5,8 @@
 	"author": "Sravya Balasa",
 	"main": "server.js",
 	"scripts": {
-		"start": "node app.js",
-		"dev": "nodemon app.js"
+		"start": "node server.js",
+		"dev": "nodemon server.js"
 	},
 	"dependencies": {
 		"@sendgrid/mail": "^7.4.2",

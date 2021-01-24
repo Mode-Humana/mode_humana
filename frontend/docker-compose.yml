@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  rook:
+  client:
     container_name: frontend
     build:
       context: .

@@ -4,7 +4,7 @@ const express = require('express');
 const mongoDB = require('./db');
 
 // constants
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const HOST = '0.0.0.0';
 
 // initialize the db connection + app
