@@ -11,7 +11,7 @@ export default function OurProcess() {
 			<Container className="content">
 				<Row>
 					<Col>
-						<h1 className="title">Our Process</h1>
+						<h1 className="title">OUR PROCESS</h1>
 					</Col>
 				</Row>
 				<Row justify="center" align="center">

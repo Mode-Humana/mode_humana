@@ -9,7 +9,7 @@ export default function Mission() {
 			<Container className="content">
 				<Row>
 					<Col>
-						<h1 className="title">Our Mission</h1>
+						<h1 className="title">OUR MISSION</h1>
 					</Col>
 				</Row>
 				<Row>

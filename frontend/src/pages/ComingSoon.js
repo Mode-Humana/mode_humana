@@ -10,7 +10,7 @@ export default function ComingSoon(props) {
 			<Container className="content">
 				<Row>
 					<Col>
-						<h1 className="title">Coming Soon.</h1>
+						<h1 className="title">COMING SOON.</h1>
 					</Col>
 				</Row>
 				<Row className="sign-up">

@@ -10,6 +10,9 @@
 @import "~@fontsource/rubik/300.css";
 @import "~@fontsource/rubik/700.css";
 
+@import "~@fontsource/ultra/index.css";
+@import "~@fontsource/ultra/400.css";
+
 html {
 	@media screen and (min-width: $lg) {
 		font-size: 10px;
@@ -34,7 +37,7 @@ html {
 }
 
 h1 {
-	font-family: "Love Craft";
+	font-family: "Ultra";
 	font-size: 8.0rem;
 	letter-spacing: 0.4rem;
 }

@@ -9,7 +9,7 @@ export default function Trend() {
 			<Container className="content">
 				<Row>
 					<Col>
-						<h1 className="title">Not A Trend</h1>
+						<h1 className="title">NOT A TREND</h1>
 					</Col>
 				</Row>
 				<Row>
