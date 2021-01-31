@@ -1,6 +1,6 @@
 # Mode Humana's Website
 
-## (modehumana.com)[modehumana.com]
+## !(modehumana.com)[modehumana.com]
 
 This is the repository for the **Mode Humana** Website. We are building a personal styling service dedicated to bringing sustainable and ethical fashion to your wardrobe, bridging the gap between sustainable fashion and the personal styling industry.
 
